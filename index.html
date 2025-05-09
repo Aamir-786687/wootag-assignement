@@ -12,8 +12,10 @@
     <div class="ad-container">
         <!-- Step 1: Camera Access Request -->
         <div class="step active" id="step1">
-            <img class="prime-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
-            <h1 class="headline">Discover Your Perfect Movie Match!</h1>
+            <div class="back">
+                <img class="jio-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            </div>
+            <h1 class="headline">Watch a movies according to you mood!</h1>
             <p class="subheadline">Let us analyze your mood and recommend the perfect movie for you.</p>
             <button class="btn" id="cameraAccessBtn">Scan My Mood</button>
             <p class="skip-option" id="skipToManualBtn">No Pic? No problem! Choose your mood</p>
@@ -21,7 +23,9 @@
 
         <!-- Step 2: Video Capture -->
         <div class="step" id="step2">
-            <img class="prime-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+             <div class="back">
+                <img class="jio-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            </div>
             <h1 class="headline">Let's See How You're Feeling</h1>
             <div class="video-container">
                 <video id="video" autoplay playsinline muted></video>
@@ -34,8 +38,9 @@
 
         <!-- Step 3: Scanning Animation -->
         <div class="step" id="step3">
-            <img class="prime-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
-            <h1 class="headline">Analyzing Your Mood</h1>
+            <div class="back">
+                <img class="jio-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            </div><h1 class="headline">Analyzing Your Mood</h1>
             <div class="video-container">
                 <video id="videoSnapshot" playsinline muted></video>
                 <div class="scan-animation" id="scanAnimation2"></div>
@@ -45,7 +50,9 @@
 
         <!-- Step 4: Manual Mood Selection -->
         <div class="step" id="step4">
-            <img class="prime-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            <div class="back">
+                <img class="jio-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            </div>
             <h1 class="headline">How Are You Feeling Today?</h1>
             <div class="mood-selection">
                 <div class="mood-btn" data-mood="Happy">😊 Happy</div>
@@ -59,7 +66,9 @@
 
         <!-- Step 5: Movie Recommendation -->
         <div class="step" id="step5">
-            <img class="prime-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            <div class="back">
+                <img class="jio-logo" src="https://upload.wikimedia.org/wikipedia/commons/f/f1/Prime_Video.png" alt="Prime Video Logo">
+            </div>
             <div class="movie-recommendation">
                 <p class="detected-mood">Based on your <span id="moodText">mood</span>, we recommend:</p>
                 <img class="movie-thumbnail" id="movieThumbnail" src="" alt="Movie Thumbnail">
